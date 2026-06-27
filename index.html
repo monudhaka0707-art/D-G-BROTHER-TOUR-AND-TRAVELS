@@ -11,9 +11,12 @@
       body { font-family: 'Poppins', sans-serif; background: #f5f5f5; }
       .top-bar { background: #1a1a1a; color: white; padding: 8px 15px; font-size: 14px; display: flex; justify-content: center; gap: 20px; }
       .top-bar a { color: #FFD700; text-decoration: none; font-weight: 600; }
-      .header { background: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%); padding: 15px 15px 20px 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: center; border-bottom: 4px solid #FFD700; }
+      .header { background: linear-gradient(180deg, #ffffff 0%, #f8f8f8 100%); padding: 15px 15px 10px 15px; box-shadow: 0 4px 20px rgba(0,0,0,0.08); text-align: center; border-bottom: 4px solid #FFD700; }
       .logo-wrapper { display: flex; flex-direction: column; align-items: center; }
       .logo { width: 100%; max-width: 350px; height: auto; filter: drop-shadow(0 6px 12px rgba(0,0,0,0.2)); }
+      .menu { background: #8B0000; padding: 12px 0; display: flex; justify-content: center; gap: 15px; flex-wrap: wrap; }
+      .menu a { color: white; text-decoration: none; font-weight: 600; font-size: 14px; padding: 5px 10px; border-radius: 5px; }
+      .menu a:hover, .menu a.active { background: #FFD700; color: #8B0000; }
       .hero { background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('khatushyamjpg.jpg'); background-size: cover; background-position: center; color: white; text-align: center; padding: 60px 20px; }
       .hero h2 { font-size: 28px; margin-bottom: 10px; font-weight: 800; }
       .hero h2 span { color: #FFD700; }
@@ -69,35 +72,34 @@
    </style>
 </head>
 <body>
-
    <div class="top-bar">
       <a href="tel:9205913842"><i class="fa fa-phone"></i> +91 9205913842</a>
       <a href="tel:9873055760"><i class="fa fa-phone"></i> +91 9873055760</a>
    </div>
-
    <div class="header">
       <div class="logo-wrapper">
          <img src="logopng.jpg" alt="D&G Brother Logo" class="logo">
       </div>
+   <div class="menu">
+      <a href="index.html" class="active">HOME</a>
+      <a href="about.html">ABOUT US</a>
+      <a href="services.html">SERVICES</a>
+      <a href="fleet.html">OUR FLEET</a>
+      <a href="contact.html">CONTACT</a>
    </div>
-
    <div class="hero">
       <h2>DELHI TO <span>ALL INDIA</span> CAB SERVICE</h2>
       <p>Brand New 6+1 AC Car | Safe & Comfortable | Daily Service</p>
       <a href="tel:9205913842" class="btn-hero">BOOK NOW</a>
    </div>
-
    <div class="offer-strip">
       <h3>🎉 SPECIAL TOUR OFFERS - LIMITED TIME 🎉</h3>
    </div>
-
    <div class="price-strip">
       <h3>KHATU SHYAM JI - ₹7,800 ONLY</h3>
       <p>All Inclusive: Toll + Driver + Parking | No Hidden Charges</p>
    </div>
-
    <div class="container">
-
       <div class="tour-offer-section">
          <h3><i class="fa fa-fire"></i> Special Tour Packages</h3>
          <p class="subtitle">Best rates for all popular destinations from Delhi</p>
@@ -135,7 +137,6 @@
             </div>
          </div>
       </div>
-
       <div class="daily-section">
          <h3><i class="fa fa-calendar-check"></i> DAILY CAB SERVICE</h3>
          <p>Daily Taxi Service from Delhi | Same Day Return Available</p>
@@ -163,7 +164,6 @@
          </div>
          <a href="https://wa.me/919205913842?text=Jai%20Shree%20Shyam%20🙏%20Daily%20Cab%20Service%20ke%20liye%20baat%20karni%20hai" class="btn-daily"><i class="fab fa-whatsapp"></i> DAILY BOOKING</a>
       </div>
-
       <div class="service-section">
          <h3>🚕 Our Main Service</h3>
          <div class="service-card">
@@ -180,44 +180,7 @@
             </div>
          </div>
       </div>
-
       <h3 style="text-align:center; color:#8B0000; font-size:24px; margin:30px 0 20px;">⭐ Why Choose Us?</h3>
       <div class="features">
          <div class="feature-box">
-            <i class="fa fa-car"></i>
-            <h4>Brand New Car</h4>
-            <p>Premium AC Car</p>
-         </div>
-         <div class="feature-box">
-            <i class="fa fa-user-shield"></i>
-            <h4>Safe Driver</h4>
-            <p>Experienced & Verified</p>
-         </div>
-         <div class="feature-box">
-            <i class="fa fa-rupee-sign"></i>
-            <h4>Fixed Price</h4>
-            <p>No Hidden Charges</p>
-         </div>
-         <div class="feature-box">
-            <i class="fa fa-headset"></i>
-            <h4>24x7 Support</h4>
-            <p>Call Anytime</p>
-         </div>
-      </div>
-
-   <div class="sticky-btns">
-      <a href="tel:9205913842" class="sticky-btn call-btn"><i class="fa fa-phone"></i></a>
-      <a href="https://wa.me/919205913842" class="sticky-btn whatsapp-btn"><i class="fab fa-whatsapp"></i></a>
-   </div>
-
-   <div class="footer">
-      <h3>D & G BROTHER TOUR AND TRAVELS</h3>
-      <div class="footer-contact">
-         <a href="tel:9205913842">📞 9205913842</a>
-         <a href="tel:9873055760">📞 9873055760</a>
-      </div>
-      <p style="margin-top:15px;">JAI SHREE SHYAM 🙏</p>
-   </div>
-
-</body>
-</html>
+            <i class="
